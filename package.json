@@ -1,8 +1,11 @@
 {
   "name": "fullstack-music-app",
   "version": "0.1.0",
+  "homepage": "https://snk923.github.io/fullstack-music-app",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -21,6 +24,7 @@
     "easy-peasy": "^5.0.4",
     "format-duration": "^2.0.0",
     "framer-motion": "^7.2.0",
+    "gh-pages": "^4.0.0",
     "jsonwebtoken": "^8.5.1",
     "next": "12.2.5",
     "react": "18.2.0",
